@@ -21,13 +21,8 @@
 title: Data Science, Engineering, and Life
 email: dkval18@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  In a information abundant world, its easy to accept the any information as
-  truth.  Posts, news, and other media drive emotional responses for more clicks
-  or shares. As an engineer, I have learned to ask questions.  Questions like
-  why, how, or show me. Trust but verify is a common phrase where I work.  You 
-  can trust someone, but verify for yourself. I have learned to use
-  Data Science and computers to do my own analysis. Here I want to share with
-  you how I see.  But I would ask of you, Trust but verify!
+  Analysis in the modern age.  Ask questions, dig deeper, and find out for yourself.
+  Trust but verify!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dkval18
