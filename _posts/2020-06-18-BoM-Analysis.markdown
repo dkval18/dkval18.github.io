@@ -21,13 +21,21 @@ People and God have interacted throughout the history of the world. And you can 
 
 > Alma 5:1 Now it came to pass that Alma began to deliver the word of God unto the people, first in the land of Zarahemla, and from thence throughout all the land.
 
-Prophets speak in the Book of Mormon. And they testify to God.  The Book of Mormon is full of examples of God speaking to people.  It is one of the reasons that people can relate to the Book of Mormon.  It is because they are searching for God and want to see how He has interacted with other people. One of the most powerful takeaway from the Book of Mormon is that God speaks to all men:
+Prophets speak in the Book of Mormon. And they testify to God.  The Book of Mormon is full of examples of God speaking to people.  It is one of the reasons that people can relate to the Book of Mormon.  It is because they are searching for God and want to see how He has interacted with other people. One of the most powerful takeaway from the Book of Mormon is that God speaks to all people, no matter their background, ethnicity, or family lineage:
 
 > 2 Nephi 26:33 For none of these iniquities come of the Lord; for he doeth that which is good among the children of men; and he doeth nothing save it be plain unto the children of men; and he inviteth them all to come unto him and partake of his goodness; and he denieth none that come unto him, black and white, bond and free, male and female; and he remembereth the heathen; and all are alike unto God, both Jew and Gentile.
 
-God speaks to all his children on the earth, not only the Jews. All people are his children, and he wants them all to return to them.
+God speaks to all his children on the earth, not only the Jews. All people are his children, and he wants them all to return to Him.
+
+The sub title of the Book of Mormon is, *Another Testament of Jesus Christ*. I wanted to see if the Book of Mormon really contained references to Christ. Here is the result of different references to Christ throughout the text by frequency.  By no means is this exhaustive.
 
 {% include names_of_christ.html %}
+
+The words speak of Christ.  And he is intimately apart of the text. It truly is another testament of him. The introduction of the Book of Mormon contains this relevant quote:
+
+> Concerning this record the Prophet Joseph Smith said: “I told the brethren that the Book of Mormon was the most correct of any book on earth, and the keystone of our religion, and a man would get nearer to God by abiding by its precepts, than by any other book.”
+
+I have grown closer to God as I've read the [Book of Mormon][bom-read]. The book is simply another testament of Jesus Christ and his interactions with another set of people.  If you already believe in Jesus Christ, wouldn't you want to read about more interactions with people? Ultimately its up to us, our personal experience with God that will lead us down a spiritual path. The Book of Mormon has brought more good and peace to my soul than any other book. I hope you can find it too.
 
 [bom-info]: https://www.comeuntochrist.org/beliefs/book-of-mormon
 [bom-read]: https://www.churchofjesuschrist.org/study/scriptures/bofm?lang=eng
