@@ -11,7 +11,7 @@ As a data scientist I have learned how to study text in a different way. Compute
 
 What is in the Book of Mormon?  What does it say? Making a word cloud allows you to see what the most common words in the Book of Mormon.  This may give you a hint to what the book is about.  The bigger the word, the more times it shows up in the text.
 
-{% include BOM_WC.png %}
+![BOM_WC](/assets/BOM_WC.png)
 
 **GOD** and **PEOPLE**. These are the top two words in the Book of Mormon.  So one could reasonably theorize that the Book of Mormon is about God and how He interacts with people.  All people.  Looking at specific examples of verses with both **God** and **People**:
 
