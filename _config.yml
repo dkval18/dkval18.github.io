@@ -21,8 +21,7 @@
 title: Data Science, Engineering, and Life
 email: dkval18@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Analysis in the modern age.  Ask questions, dig deeper, and find out for yourself.
-  Trust but verify!
+  Analytics powered thinking in the modern world.  Data science, engineering, and life.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dkval18
