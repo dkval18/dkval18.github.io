@@ -11,7 +11,7 @@ the first information I hear. When something sounds shocking or unbelievable, **
 When I don't understand another's point of view, **ask questions**.  Questions drive answers,
 and questions drive solutions. In the search of answering questions, I use 
 data science and computer programming to find answers. And once I do, I want to
-share my viewpoint wiht you. Come with me as we ask questions and find
+share my viewpoint with you. Come with me as we ask questions and find
 answers based on the data around us.  No quick answers, no easy way out.
 
 
