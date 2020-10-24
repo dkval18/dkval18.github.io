@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Book of Mormon as a Data Scientist"
+title:  "Data Science and the Book of Mormon"
 date:   2020-06-16 22:30:12 -0800
 categories: jekyll update
 ---
