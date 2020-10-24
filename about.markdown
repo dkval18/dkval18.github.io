@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-In a information abundant world, its easy to accept the any information as
+In an information abundant world, its easy to accept the any information as
 truth.  Posts, news, and other media drive *emotional responses* for more clicks
-or shares. My professional career has taught me to **ask questions**; to not accept
-the first information I hear. When something sounds shocking or unbelievable, **ask questions**.
+or shares. My professional career has taught me to **ask questions**; to not simply accept
+the first information I hear. When something sounds shocking or unbelievable, **question, dig and research**.
 When I don't understand another's point of view, **ask questions**.  Questions drive answers,
 and questions drive solutions. In the search of answering questions, I use 
 data science and computer programming to find answers. And once I do, I want to
