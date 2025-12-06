@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrolly Pyramid + Poem</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f2e8c9;
+            font-family: Georgia, serif;
+            overflow-x: hidden;
+        }
+
+        /* PYRAMID + SUN */
+        #pyramid-container {
+            position: relative;
+            width: 100%;
+            height: 300vh;
+            z-index: 1;
+        }
+
+        .sun {
+            position: sticky;
+            top: 12vh;
+            width: 220px;
+            height: 220px;
+            background: radial-gradient(circle, #ffe9a3, #f4c542);
+            border-radius: 50%;
+            opacity: 0.7;
+            margin: 0 auto;
+            z-index: 0;
+        }
+
+        .pyramid {
+            position: sticky;
+            bottom: -80vh;
+            width: 160vw;
+            height: 160vw;
+            background: linear-gradient(to top right, #cfa669, #e8d4a2);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            margin: 0 auto;
+            box-shadow: -25px 25px 50px rgba(0, 0, 0, 0.35) inset;
+            z-index: 2;
+        }
+
+        /* FIXED POEM BOX */
+        #poem-box {
+            position: fixed;
+            top: 6vh;
+            left: 5vw;
+            width: 40vw;
+            z-index: 50;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+            pointer-events: none;
+        }
+
+        .poem-line {
+            font-size: 0.8rem;
+            /* slightly smaller */
+            color: #3a2e15;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+        }
+
+        .poem-line.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* TITLE */
+        #title {
+            position: fixed;
+            top: 1vh;
+            left: 5vw;
+            font-size: 1.5rem;
+            /* slightly smaller */
+            color: #3a2e15;
+            text-shadow: 0 3px 10px rgba(255, 255, 255, 0.9);
+            z-index: 60;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="title">The Great Pyramid</div>
+    <div id="poem-box"></div>
+    <div id="pyramid-container">
+        <div class="sun"></div>
+        <div class="pyramid"></div>
+    </div>
+
+    <script>
+        const stanzas = [
+            "Love was great when we were kids<br>It was like uncovering a small pyramid<br>A quick selfie as we strike a pose<br>Then I ask, I wonder how deep it goes",
+            "Then together we start digging<br>I think to myself, this is only the beginning<br>Each new handful reveals something more<br>Neither one of us look to the door",
+            "The pyramid once small, is getting bigger<br>You take a short break then come back a better digger<br>The excitement builds of what this could be<br>Then I leave to fulfill my sacred duty",
+            "The pyramid still stands when we reunite<br>The digging resumes late into the night<br>More to see and more to discover<br>Once the structure comes into view I knew that I love her",
+            "As we dig, you step on my toes<br>Ow! That’s not how this goes<br>I look to see a big grin on your face<br>I’m going to stay here for as long as it takes",
+            "Digging down reveals a solid base<br>Head on we overcome challenges we face<br>Holding hands, we do it together<br>Together like two birds of a feather",
+            "One day I marvel on what we’ve uncovered<br>Do you think there is space for another?<br>We add one then two finally three and four<br>Never had I thought I could love this much before",
+            "With a bigger structure comes more responsibilities<br>Come to think of it, we are just plain busy<br>If you thought we had stayed up late digging once before<br>We get even less sleep on this bumpy tour",
+            "Sometimes this feels more than we can handle<br>But day after day we keep digging down so<br>Our shining structure stays strong<br>Even while we have needy tag-alongs",
+            "Love moves on, one inch a time<br>There must be more steps to climb<br>In the end we will uncover all that was hid<br>Our love as a pyramid"
+        ];
+
+        const poemBox = document.getElementById('poem-box');
+        const lines = [];
+
+        stanzas.forEach(text => {
+            const line = document.createElement('div');
+            line.className = 'poem-line';
+            line.innerHTML = text;
+            poemBox.appendChild(line);
+            lines.push(line);
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrollFraction = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+            const linesToShow = Math.floor(scrollFraction * lines.length);
+            lines.forEach((line, idx) => {
+                if (idx <= linesToShow) line.classList.add('visible');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
